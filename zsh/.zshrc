@@ -51,3 +51,8 @@ alias gst='gw prune ; gw list | grep --color -E "$(gwd).*|$" ; gb ; git status -
 
 # VSCode Insiders Alias
 alias icode='code-insiders'
+
+# Cruise Additions
+export PATH="$PATH:$HOME/.local/bin"
+export VAULT_ADDR=https://vault.secure.car:8200
+alias vlogin='vault login -method=okta username=neil.wadhvana'

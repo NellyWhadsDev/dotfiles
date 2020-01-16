@@ -28,4 +28,4 @@ ln -sfn $ZSH_DIR/.zshrc $HOME/.zshrc
 if [ "$MACHINE" = "MacOS" ]; then
     echo "$(which zsh)" | sudo tee -a /etc/shells > /dev/null
 fi
-chsh -s $(which zsh)
+#chsh -s $(which zsh)
