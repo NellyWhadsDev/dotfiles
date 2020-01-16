@@ -15,6 +15,7 @@ antigen theme eendroroy/alien-minimal alien-minimal
 
 antigen bundle unixorn/autoupdate-antigen.zshplugin
 antigen bundle Valiev/almostontop
+antigen bundle jackwish/bazel
 antigen bundle psprint/history-search-multi-word
 antigen bundle lukechilds/zsh-nvm
 antigen bundle willghatch/zsh-saneopt
