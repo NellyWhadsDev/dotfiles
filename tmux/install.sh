@@ -10,7 +10,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 printf '\e[34m%s\e[0m\n' "Installing Tmux..." 1>&2
 if [ "$MACHINE" = "Ubuntu" ]; then
-    sudo apt-get install tmux -y
+    apt-get install tmux -y
 elif [ "$MACHINE" = "MacOS" ]; then
     brew install tmux
 fi

@@ -56,8 +56,8 @@ chmod +x ./*/install.sh
 
 printf '\e[34m%s\e[0m\n' "Installing universal dependancies..." 1>&2
 if [ "$MACHINE" = "Ubuntu" ]; then
-    sudo apt-get update
-    sudo apt-get install curl python3 python3-pip vim -y
+    apt-get update
+    apt-get install curl python3 python3-pip vim -y
 elif [ "$MACHINE" = "MacOS" ]; then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" </dev/null
     brew install curl python
