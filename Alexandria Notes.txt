@@ -1,0 +1,5 @@
+# Alexandria Backup commands
+sudo rclone check [source](/media/Alexandria2/Music) [dest[(/media/AlexBak2/Music} --transfers=1 -P --check-first --include-from [config](/media/AlexBak2/rclone_include_Alexandria2.txt)
+sudo rclone sync [source](/media/Alexandria2/Music) [dest](/media/AlexBak2/Music) --transfers=4 -P --check-first --size-only --include-from [config](/media/AlexBak2/rclone_include_Alexandria2.txt)
+
+# HQPlayer licence is in email
