@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup /home/neil.wadhvana/Repos/dotfiles/nvidia/update-gfx.sh &>/dev/null &

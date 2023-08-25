@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo tee /proc/acpi/bbswitch <<<ON
+sudo prime-select nvidia
+gnome-session-quit

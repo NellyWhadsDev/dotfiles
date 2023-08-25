@@ -52,7 +52,7 @@ alias gst='gw prune ; gw list | grep --color -E "$(gwd).*|$" ; gb ; git status -
 alias icode='code-insiders'
 
 # Add python/other packages/scripts/tools to path
-PATH=$PATH:/home/$USER/.local/bin
+PATH=$PATH:/usr/local/bin:/home/$USER/.local/bin:/home/$USER/go/bin
 
 # Use python3 by default, only really nevessary on older OS versions
 alias pip=pip3
@@ -60,3 +60,5 @@ alias python=python3
 
 # Add fuck alias
 eval $(thefuck --alias)
+
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
