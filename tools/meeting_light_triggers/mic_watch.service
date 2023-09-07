@@ -1,0 +1,9 @@
+[Unit]
+Description=Detects Microphone Use Changes and Updates the Status Light
+Requires=busyserve.service
+
+[Service]
+ExecStart=/bin/bash /home/neil.wadhvana/Repos/dotfiles/tools/meeting_light_triggers/start_mic_watch.sh
+
+[Install]
+WantedBy=default.target

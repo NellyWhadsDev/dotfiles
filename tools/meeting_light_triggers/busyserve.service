@@ -1,0 +1,8 @@
+[Unit]
+Description=Runs busyserve web api
+
+[Service]
+ExecStart=/bin/bash /home/neil.wadhvana/Repos/dotfiles/tools/meeting_light_triggers/start_busyserve.sh
+
+[Install]
+WantedBy=default.target
